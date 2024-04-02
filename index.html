@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <header> -->
+
+    <header>
+      <a href="" class="logo">QWE<span>RY</span></a>
+      <ul class="navbar">
+        <li><a href="">Navbar</a></li>
+        <li><a href="">Information</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Culture</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+      <div class="h-right">
+        <a href="">Follow Us</a>
+        <a href=""><i class="ri-instagram-fill"></i></a>
+        <a href=""><i class="ri-twitter-x-fill"></i></a>
+        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <script>
+      let menu = document.querySelector("#menu-icon");
+      let navbar = document.querySelector(".navbar");
+
+      menu.onclick = () => {
+        menu.classList.toggle("bx-x");
+        navbar.classList.toggle("open");
+      };
+    </script>
+    <!-- js header -->
+    <script>
+      const header = document.querySelector("header");
+
+      window.addEventListener("scroll", function () {
+        header.classList.toggle("sticky", window.scrollY > 60);
+      });
+    </script>
+
+    <!-- menu utama -->
+    <section class="home">
+      <div class="home-text">
+        <h5>Let's</h5>
+        <h1>
+          Planing your <br />
+          own business
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta perspiciatis et autem dolor animi rem numquam optio. Quaerat distinctio ipsum voluptate aspernatur necessitatibus expedita. Nesciunt quia vel excepturi
+          consequatur assumenda, ipsa laudantium autem minus neque facere! Enim, quos architecto!
+        </p>
+        <a href="#" class="btn">book a trip</a>
+      </div>
+    </section>
+
+    <!-- daftar menu -->
+    <section class="feature">
+      <div class="feature-content">
+        <div class="row">
+          <div class="row-img">
+            <img src="img/bus.jpg" alt="bus" />
+          </div>
+          <h4>SKI tours</h4>
+        </div>
+        <div class="row">
+          <div class="row-img">
+            <img src="img/bus.jpg" alt="bus" />
+          </div>
+          <h4>SKI tours</h4>
+        </div>
+        <div class="row">
+          <div class="row-img">
+            <img src="img/bus.jpg" alt="bus" />
+          </div>
+          <h4>SKI tours</h4>
+        </div>
+        <div class="row">
+          <div class="row-img">
+            <img src="img/bus.jpg" alt="bus" />
+          </div>
+          <h4>SKI tours</h4>
+        </div>
+        <div class="row">
+          <div class="row-img">
+            <img src="img/bus.jpg" alt="bus" />
+          </div>
+          <h4>SKI tours</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- daftar movie -->
+
+    <section class="holiday">
+      <div class="holiday-img">
+        <img src="img/movie1.jpg" alt="kucing" />
+      </div>
+      <div class="holiday-text">
+        <h5>east sepatu</h5>
+        <h2>haave you enjoy your market</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, modi? Ratione, esse iure odit corporis inventore eaque aliquid quo totam ex. Qui a maxime voluptatem nihil aut dolorem deserunt veniam officia ab rem aspernatur
+          ad dolores repudiandae eum aliquam reiciendis, eos assumenda aperiam inventore quas earum impedit sint voluptates eaque.
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </section>
+
+    <!-- desain tour -->
+
+    <section class="tour">
+      <div class="center-text">
+        <h2>popular movie</h2>
+      </div>
+      <div class="tour-content">
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+        <div class="box">
+          <img src="img/movie1.jpg" alt="" />
+          <h6>east home</h6>
+          <h4>mount bromo</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- culture menu -->
+
+    <section class="culture">
+      <div class="culture-text">
+        <h1>Indonesia</h1>
+        <h2>Our culture here is very friendly to people</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero culpa error eaque beatae natus, ut minima aliquam sit reprehenderit excepturi neque quis quaerat incidunt, saepe ipsam autem obcaecati non. Dolor provident rerum porro,
+          quaerat deserunt, iure cumque exercitationem magnam delectus aperiam et obcaecati natus deleniti ipsa libero odit, vel in commodi. Tenetur consequuntur accusamus omnis, saepe temporibus, repellat a nisi, cumque vel quo distinctio.
+          Aliquid totam omnis a repellendus dolor!
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="culture-img">
+        <img src="img/movie1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- newsletter menu -->
+
+    <section class="newsletter">
+      <div class="newsletter-content">
+        <div class="newsletter-text">
+          <h2>ready to explore</h2>
+          <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <form action="">
+          <input type="email" name="email" placeholder="enter your email ....!" required="" />
+          <input type="submit" value="get started" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="footer-box">
+        <h3>service</h3>
+        <a href="">Email</a>
+        <a href="">Faceboo</a>
+        <a href="">Instagram</a>
+        <a href="">X</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>About</h3>
+        <a href="">Our Story</a>
+        <a href="">Benefits</a>
+        <a href="">Team</a>
+        <a href="">Careers</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Help</h3>
+        <a href="">FAQs</a>
+        <a href="">Contact us</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Social</h3>
+        <div class="social">
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-x-fill"></i></a>
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- copyrigh -->
+
+    <div class="copyright">
+      <p>copyright By aji wahyu</p>
+    </div>
+  </body>
+</html>
